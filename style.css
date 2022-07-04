@@ -2,6 +2,9 @@ body {
     margin:0;
     font-family:"Poppins", sans-serif;
 }
+.section-spacing {
+    margin-bottom:100px;
+}
 h1 {
     font-size:50px;
     font-weight:500;
@@ -11,6 +14,8 @@ span {
 }
 p{
     color:#696969;
+    line-height:1.5em;
+    font-size:18px;
 }
 .button {
     text-decoration:none;
@@ -21,6 +26,9 @@ p{
     color:white;
     border-radius:5px;
 }
+.img-fluid {
+    width:100%;
+}
 .flexible-container {
     display:flex;
     justify-content:center;
@@ -29,9 +37,59 @@ p{
     width:40%;
     margin:0 auto;
 }
+.pt-5 {
+    padding-top:50px;
+}
 .header {
     background:url("images/top-banner.png") no-repeat ;
 }
-.header-image img {
-    width:100%;
+.dream-big {
+    background:url("images/dream-bg.png") no-repeat right;
+}
+.experience {
+    background:url("images/exp-bg.png") no-repeat left center;
+}
+.experience h1 {
+    font-size:40px !important;
+}
+#left {
+    box-shadow:0 0 20px;
+    border-radius:10px;
+    padding:20px;
+    border-left:7px solid #FF6347;
+}
+#right {
+    box-shadow:0 0 20px;
+    padding:20px;
+    border-radius:10px;
+    border-left:7px solid #0000FF;
+}
+footer {
+     text-align:center;
+}
+
+
+
+@media all and (max-width:768px){
+    h1 {
+        font-size:30px;
+    }
+    .flexible-container{
+        flex-flow:column-reverse;
+    }
+    .section-spacing {
+        margin:30px auto;
+    }
+    .half {
+        width:80%;
+        margin:30px auto;
+    }
+    .experience h1 {
+        font-size:30px !important;
+    }
+}
+@media all and (max-width:468px){
+   .pt-5 {
+     padding-top:0;
+   }
 }
