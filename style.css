@@ -1,1 +1,37 @@
-ECHO is on.
+body {
+    margin:0;
+    font-family:"Poppins", sans-serif;
+}
+h1 {
+    font-size:50px;
+    font-weight:500;
+}
+span {
+    color:#FFA500;
+}
+p{
+    color:#696969;
+}
+.button {
+    text-decoration:none;
+    font-size:16px;
+    text-transform:uppercase;
+    padding:10px 40px;
+    background-image:linear-gradient(#FF684B,  #FF9A75);
+    color:white;
+    border-radius:5px;
+}
+.flexible-container {
+    display:flex;
+    justify-content:center;
+}
+.half {
+    width:40%;
+    margin:0 auto;
+}
+.header {
+    background:url("images/top-banner.png") no-repeat ;
+}
+.header-image img {
+    width:100%;
+}
